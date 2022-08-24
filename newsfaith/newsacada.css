@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+
+
+
+body, html{
+    height: 100px 
+    /* style="scroll-behavior:smooth;" */
+} 
+
+.parallax {
+    background-image:url(../faithacade/image/news_faithacada1.jpg);
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center ;
+    background-size: cover;
+
+
+} 
+
+
+
+
+
+
+
+.aca {
+    display: flex;
+    justify-content: space-around;
+    margin-top:150px;
+    align-items: center; 
+    height: 600px;
+    margin-bottom: 60px;
+  }
+
+.aca a :hover {
+     color:var(gray);
+    text-decoration: none;
+    font-size: 43px; 
+  }
+ 
+.aca button {
+   padding: 20px 60px;
+   margin-bottom: 250px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.holder {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.holder .box {
+    width:200px;
+    margin:0 80px;
+}
+.holder a {
+    text-decoration: none;
+}
+.holder button {
+    padding:10px 20px;
+    display: block;
+    margin-top: 350px;
+    width:270px;
+    height: 50px;
+    background-color: #0343ac;
+    color:#f1f1f1;
+    border: none;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+ 
+
+.holder1 {
+    display: block;
+
+}
+
+
+
+
+
+
+
+/* .holder button{
+    box-shadow: 2 2 2 4em gray,  2 2 2 8em black;
+    margin: 4em;
+    padding: 1em;   
+} */
+
+/* .button :hover{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+
+} */
+
+.roll {
+    display: block;
+    justify-content: center;
+    text-align: center;
+ margin-top: 50px;
+ color: whitesmoke;
+ font-size: xx-large;
+ margin-bottom: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* table  {
+    border-collapse: collapse;
+
+   /* display: block; */
+   /* position: absolute;
+    width: 100%;
+    height: 100vh;
+    float: left; */
+
+} */
